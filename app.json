@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "lil-media-expo",
-    "slug": "lil-media-expo",
+    "slug": "lil-media",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f9ee0814-be43-4d60-b778-d91c3b47f660"
+      }
+    },
+    "owner": "lil-media"
   }
 }
